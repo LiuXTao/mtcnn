@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="00a70b0e-1de6-4290-9a20-d95e5f76c4ab" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/mtcnn_pytorch.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anno_store/landmark_imagelist.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/anno_store/wider_origin_anno.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nets/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nets/nets_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prepare_data/assemble.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prepare_data/assemble_pnet_imglist.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prepare_data/gen_pnet_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prepare_data/gen_rnet_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/detect_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/image_reader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/image_tools.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/imagedb.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/visual_tools.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train/MtcnnDetector.py" afterDir="false" />
-    </list>
+    <list default="true" id="00a70b0e-1de6-4290-9a20-d95e5f76c4ab" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +15,7 @@
         <entry file="file://$PROJECT_DIR$/tools/utils.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-144">
-              <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+              <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -56,7 +36,7 @@
         <entry file="file://$PROJECT_DIR$/prepare_data/gen_pnet_data.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-38">
-              <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+              <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -65,7 +45,7 @@
         <entry file="file://$PROJECT_DIR$/tools/detect_utils.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="57">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
               <folding>
                 <element signature="e#1#13#0" expanded="true" />
               </folding>
@@ -76,8 +56,8 @@
       <file leaf-file-name="MtcnnDetector.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/train/MtcnnDetector.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="272" column="22" lean-forward="true" selection-start-line="272" selection-start-column="22" selection-end-line="272" selection-end-column="22" />
+            <state relative-caret-position="359">
+              <caret line="278" lean-forward="true" selection-start-line="278" selection-end-line="278" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -101,7 +81,7 @@
         <entry file="file://$PROJECT_DIR$/prepare_data/assemble_pnet_imglist.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="361">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -256,6 +236,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -364,7 +345,7 @@
     <entry file="file://$PROJECT_DIR$/prepare_data/assemble_pnet_imglist.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
@@ -397,7 +378,7 @@
     <entry file="file://$PROJECT_DIR$/prepare_data/gen_pnet_data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-38">
-          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -424,7 +405,7 @@
     <entry file="file://$PROJECT_DIR$/tools/detect_utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
           <folding>
             <element signature="e#1#13#0" expanded="true" />
           </folding>
@@ -444,14 +425,14 @@
     <entry file="file://$PROJECT_DIR$/tools/utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-144">
-          <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+          <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/train/MtcnnDetector.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="272" column="22" lean-forward="true" selection-start-line="272" selection-start-column="22" selection-end-line="272" selection-end-column="22" />
+        <state relative-caret-position="359">
+          <caret line="278" lean-forward="true" selection-start-line="278" selection-end-line="278" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
