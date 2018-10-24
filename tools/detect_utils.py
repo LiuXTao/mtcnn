@@ -8,7 +8,7 @@ def create_mtcnn_net(pnet_path=None, rnet_path=None, onet_path=None, use_cuda=Fa
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     if pnet_path is not None:
         pnet = PNet(use_cuda=use_cuda)
-        pnet.load_state_dict(torch.load(pnet_path))
+        pnet.load_state_dict(torch.load(pnet_path, map_location='cpu'))
 
         if use_cuda:
             pnet.to(device)
@@ -17,14 +17,14 @@ def create_mtcnn_net(pnet_path=None, rnet_path=None, onet_path=None, use_cuda=Fa
 
     if rnet_path is not None:
         rnet = RNet(use_cuda=use_cuda)
-        rnet.load_state_dict(torch.load(rnet_path))
+        rnet.load_state_dict(torch.load(rnet_path, map_location='cpu'))
         if use_cuda:
             rnet.to(device)
         rnet.eval()
 
     if onet_path is not None:
         onet = ONet(use_cuda=use_cuda)
-        onet.load_state_dict(torch.load(onet_path))
+        onet.load_state_dict(torch.load(onet_path, map_location='cpu'))
         if use_cuda:
             onet.to(device)
 

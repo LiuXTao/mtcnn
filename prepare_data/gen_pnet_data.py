@@ -139,5 +139,5 @@ def gen_pnet_data(data_dir, anno_file, prefix):
 if __name__ == '__main__':
     data_dir = config.TRAIN_DATA_DIR
     anno_file = os.path.join(config.ANNO_STORE_DIR, 'wider_origin_anno.txt')
-    prefix_path = "D://data/Widerface/WIDER_train/images'"
+    prefix_path = "D://data/Widerface/WIDER_train/images"
     gen_pnet_data(data_dir=data_dir, anno_file=anno_file, prefix=prefix_path)

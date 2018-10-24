@@ -10,7 +10,7 @@ if __name__ == '__main__':
     pnet_negative_file = os.path.join(config.ANNO_STORE_DIR, config.PNET_NEGATIVE_ANNO_FILENAME)
     pnet_part_file = os.path.join(config.ANNO_STORE_DIR, config.PNET_PART_ANNO_FILENAME)
 
-    for i in [pnet_positive_file, pnet_negative_file, pnet_part_file]:
+    for i in [pnet_positive_file, pnet_part_file, pnet_negative_file]:
         anno_list.append(i)
 
     imglist_file = os.path.join(config.ANNO_STORE_DIR, config.PNET_TRAIN_IMGLIST_FILENAME)
